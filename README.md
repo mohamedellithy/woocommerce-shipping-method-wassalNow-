@@ -1,0 +1,1 @@
+# wassalnow-wordpress-plugin

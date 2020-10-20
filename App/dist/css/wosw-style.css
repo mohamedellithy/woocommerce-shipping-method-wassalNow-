@@ -1,0 +1,181 @@
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.dropdown-content button
+{
+  margin-left:1px !important;
+  background-color: transparent !important;
+  border-color:transparent !important;
+  font-size: 15px !important;
+  color:black !important;
+  padding: 0px !important;
+  width: 100%;
+  text-align: left;
+}
+.dropbtn
+{
+  padding: 6px 8px !important;
+  font-size: 13px !important;
+  border-radius: 3px;
+  box-shadow: 1px 3px 4px 3px #eee;
+
+}
+.swal2-title
+{
+  font-size: 1.6em !important;
+  line-height: 1.3em;
+}
+.dropdown-content a:not(:last-child)
+{
+  border-bottom: 1px solid #4caf50;
+}
+.show-trackorder-dashboard
+{
+  padding: 10px;
+  border: 3px dashed #eee;
+  margin-bottom: 17px;
+}
+
+.form-trackorder
+{
+  text-align: center;
+  border:4px dashed #1b8fb9;
+  border-bottom: 0px solid #eee;
+  margin-bottom: 0px;
+}
+.container-form-wassalnow:after{
+  /*  background: 
+      linear-gradient(-45deg, transparent 16px, #1ba1e2 0), 
+      linear-gradient(45deg, transparent 16px, #1ba1e2  0);*/
+    background: linear-gradient(-45deg, transparent 16px, #1b8fb9 0), 
+      linear-gradient(45deg, transparent 16px, #eee  0);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 22px 32px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 32px;
+    position: relative;
+    top:0px;
+    left:0px;
+  }
+
+.form-trackorder .trackNo_input
+{
+  height: 40px;
+  border: 1px solid #eee;
+  background-color: white;
+  border-radius: 5px;
+  width: 30%;
+
+}
+.form-trackorder .track_order_button
+{
+  background-color: #1b8fb9;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 4px 4px 3px #eee;
+
+}
+.form-trackorder .cancel_order_button
+{
+   background-color: #e91e63;
+   padding: 10px;
+   color: white;
+   border-radius: 5px;
+   box-shadow: 1px 4px 4px 3px #eee;
+   margin-left: 10px;
+}
+.form-trackorder .wassalNow-continer-img
+{
+  text-align: center;
+}
+.form-trackorder .wassalNow-continer-img img
+{
+  width: 15%;
+  margin: auto;
+}
+.form-trackorder .wassalNow-container-input
+{
+  margin-bottom: 14px;
+  width: 100%;
+}
+.form-trackorder p
+{
+  font-weight: bold;
+  font-size: 20px;
+}
+.form-trackorder .loading
+{
+  cursor: not-allowed;
+}
+.form-trackorder .loading:after ,
+.dropdown .loading:after,
+.show_track_order.loading:after,
+{
+        display: inline-block;
+        font-family: 'Font Awesome 5 Free';
+        font-style: normal;
+        letter-spacing: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: '\f110';
+        position: unset;
+        font-weight: 400;
+        vertical-align: top;
+        font-weight: 400;
+        -ms-animation: fa-spin 0.75s linear infinite;
+        -webkit-animation: fa-spin 0.75s linear infinite;
+        -o-animation: fa-spin 0.75s linear infinite;
+        -moz-animation: fa-spin 0.75s linear infinite;
+        animation: fa-spin 0.75s linear infinite;
+        color: inherit;
+        opacity: 1;
+        margin-top:3px;
+        margin-left: 3px;
+}
+.dropdown .loading:after
+{
+  margin-left: 28px !important;
+}
